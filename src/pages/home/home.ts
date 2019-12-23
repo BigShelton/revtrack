@@ -1,5 +1,11 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { ListDetailPage } from'../list-detail/list-detail';
+
+import {
+  NavController,
+  NavParams,
+  ToastController
+} from 'ionic-angular';
 
 @Component({
   selector: 'page-home',
@@ -7,8 +13,15 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
 
+  public constructor(
+    public navCtrl: NavController,
+    public navParams: NavParams,
+    public toastCtrl: ToastController
+  ) {}
+
+  routeToListDetail(){
+    this.navCtrl.push(ListDetailPage);
   }
 
 }
