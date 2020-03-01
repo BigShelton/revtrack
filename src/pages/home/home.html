@@ -1,48 +1,86 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>Rev Tracking</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content fullscreen>
-  <ion-searchbar></ion-searchbar>
 
-  <ion-list>
-    <ion-list-header>POPULAR CATEGORIES</ion-list-header>
-    <ion-item (click)="routeToListDetail()">
-      <ion-avatar slot="start">
-        <img src="../../assets/imgs/icon1.png">
-      </ion-avatar>
-      <ion-label>
-        <h2>Home Cleaning</h2>
-      </ion-label>
-    </ion-item>
-    <ion-item>
-      <ion-label>Handman Services</ion-label>
-    </ion-item>
-    <ion-item>
-      <ion-label>Flooring</ion-label>
-    </ion-item>
-    <ion-item>
-      <ion-label>Gardening Services</ion-label>
-    </ion-item>
-    <ion-item>
-      <ion-label>Pest Control</ion-label>
-    </ion-item>
-    <ion-item>
-      <ion-label>Plumbers</ion-label>
-    </ion-item>
-    <ion-item>
-      <ion-label>Carpet Cleaning</ion-label>
-    </ion-item>
-    <ion-item>
-      <ion-label>Home Renovations</ion-label>
-    </ion-item>
-    <ion-item>
-      <ion-label>Furniture Removals</ion-label>
-    </ion-item>
-    <ion-item>
-      <ion-label>Courier Services</ion-label>
-    </ion-item>
+  <div class="search_container" padding>
+    <input type="text" class="form-control form-control-lg font-weight-light" id="searchInput" aria-describedby="emailHelp" placeholder="Search Professionals">
+  </div>
+
+  <ion-list class="main_list">
+    <ion-list-header class="font-weight-light">POPULAR CATEGORIES</ion-list-header>
+
+      <ion-item (click)="routeToListDetail()">
+        <ion-avatar item-start>
+          <img src="../../assets/imgs/icon1.png" alt="" width="32" height="32" title="Bootstrap">
+        </ion-avatar>
+        <h2 class="font-weight-light">Home Cleaning</h2>
+      </ion-item>
+
+      <ion-item (click)="routeToListDetail()">
+        <ion-avatar item-start>
+          <img src="../../assets/imgs/icon1.png" alt="" width="32" height="32" title="Bootstrap">
+        </ion-avatar>
+        <h2 class="font-weight-light">Handyman Services</h2>
+      </ion-item>
+
+      <ion-item (click)="routeToListDetail()">
+        <ion-avatar item-start>
+          <img src="../../assets/imgs/icon1.png" alt="" width="32" height="32" title="Bootstrap">
+        </ion-avatar>
+        <h2 class="font-weight-light">Flooring</h2>
+      </ion-item>
+
+      <ion-item (click)="routeToListDetail()">
+        <ion-avatar item-start>
+          <img src="../../assets/imgs/icon1.png" alt="" width="32" height="32" title="Bootstrap">
+        </ion-avatar>
+        <h2 class="font-weight-light">Gardening Services</h2>
+      </ion-item>
+
+      <ion-item (click)="routeToListDetail()">
+        <ion-avatar item-start>
+          <img src="../../assets/imgs/icon1.png" alt="" width="32" height="32" title="Bootstrap">
+        </ion-avatar>
+        <h2 class="font-weight-light">Pest Control</h2>
+      </ion-item> 
+
+      <ion-item (click)="routeToListDetail()">
+        <ion-avatar item-start>
+          <img src="../../assets/imgs/icon1.png" alt="" width="32" height="32" title="Bootstrap">
+        </ion-avatar>
+        <h2 class="font-weight-light">Plumbers</h2>
+      </ion-item>
+
+      <ion-item (click)="routeToListDetail()">
+        <ion-avatar item-start>
+          <img src="../../assets/imgs/icon1.png" alt="" width="32" height="32" title="Bootstrap">
+        </ion-avatar>
+        <h2 class="font-weight-light">Carpet Cleaning</h2>
+      </ion-item>
+
+      <ion-item (click)="routeToListDetail()">
+        <ion-avatar item-start>
+          <img src="../../assets/imgs/icon1.png" alt="" width="32" height="32" title="Bootstrap">
+        </ion-avatar>
+        <h2 class="font-weight-light">Home Renovations</h2>
+      </ion-item>
+
+      <ion-item (click)="routeToListDetail()">
+        <ion-avatar item-start>
+          <img src="../../assets/imgs/icon1.png" alt="" width="32" height="32" title="Bootstrap">
+        </ion-avatar>
+        <h2 class="font-weight-light">Furniture Removals</h2>
+      </ion-item>
+
+      <ion-item (click)="routeToListDetail()">
+        <ion-avatar item-start>
+          <img src="../../assets/imgs/icon1.png" alt="" width="32" height="32" title="Bootstrap">
+        </ion-avatar>
+        <h2 class="font-weight-light">Courier Services</h2>
+      </ion-item>
   </ion-list>
 </ion-content>

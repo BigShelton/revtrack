@@ -1,0 +1,43 @@
+page-where-to {
+    .bodyx {
+        background-color: #f2f2f2;
+    }
+    .searchbix1 {
+        background-color: #f2f2f2;
+        margin-bottom: 6px;
+    }
+    .wheretocontainer {
+        width: 100%;
+        padding: 10px;
+        background-color: #fff;
+    }
+    .whretolistcontainer {
+        width: 100%;
+    }
+    .wheretolistitem {
+        width: 100%;
+        padding: 10px;
+        border-bottom: 1px solid #fff;
+        margin-bottom: 6px;
+    }
+    .listIconcontainer, .listdescription {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .listIconcontainer {
+        width: 20%;
+    }
+    .listIconcontainer img {
+        width: 50%;
+    }
+    .listdescription {
+        width: 80%;
+    }
+    .address-header {
+        font-size: 1.6rem;
+        margin: 0;
+    }
+    .address-address {
+        font-size: 1rem;
+    }
+}

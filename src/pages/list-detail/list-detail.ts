@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams } from 'ionic-angular';
+import { RequestQuotePage } from '../request-quote/request-quote';
+import { BusinessDetailPage } from '../business-detail/business-detail';
 
 
 /**
@@ -21,6 +23,14 @@ export class ListDetailPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ListDetailPage');
+  }
+
+  routeToQuotePage(){
+    this.navCtrl.push(RequestQuotePage);
+  }
+
+  routeToBusinessDetailPage(){
+    this.navCtrl.push(BusinessDetailPage);
   }
 
 }

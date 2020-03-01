@@ -1,3 +1,75 @@
 page-contact {
-
+    #my-map {
+        height: 60%;
+    }
+    .map-footer {
+        width: 100%;
+    }
+    .section-header {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        border-bottom: 3px solid #d0d0ce;
+    }
+    .section-header p {
+        font-size: 2rem;
+    }
+    .section-main-content {
+        width: 100%;
+        padding: 10px;
+    }
+    .search-section {
+        width: 100%;
+    }
+    .search-bar {
+        width: 100%;
+        padding: 16px;
+        background-color: #e7e7e6;
+        border-radius: 2px;
+        position: relative;
+    }
+    .search-bar p {
+        font-size: 1.6rem;
+        margin: 0;
+    }
+    .last-location-container {
+        width: 100%;
+    }
+    .last-location-container {
+        width: 100%;
+        padding: 10px 0;
+    }
+    .llc-left, .llc-right {
+        display: inline-block;
+        vertical-align: top;
+        padding-top: 10px;
+    }
+    .llc-left {
+        width: 15%;
+    }
+    .llc-right {
+        width: 75%;
+        border-bottom: 1px solid #d0d0ce;
+        padding-bottom: 10px;
+    }
+    .llc-left img {
+        width: 60%;
+    }
+    .add_name {
+        margin: 0;
+        font-size: 1.4rem;
+    }
+    .add_descr {
+        margin: 0;
+        font-size: .9rem;
+    }
+    .map-placeholder {
+        width: 100%;
+        height: 60%;
+        background-color: #d0d0ce;
+        overflow: hidden;
+    }
+    .map-placeholder img {
+        width: 100%;
+    }
 }

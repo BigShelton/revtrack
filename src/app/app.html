@@ -1,1 +1,25 @@
-<ion-nav [root]="rootPage"></ion-nav>
+<ion-menu [content]="content">
+    <ion-content>
+        <div class="side_menu_top">
+            <div class="side_menu_inner">
+                <div class="profile_image_conainer">
+                    <div class="prof_img">
+                        <img src="../assets/imgs/profile.png"/>
+                    </div>
+                </div><!--
+             --><div class="profile_name">
+                    <h3>Shelton Mhlanga</h3>
+                </div>
+            </div>
+        </div>
+        <div class="side_menu_main_cotainer">
+            <p class="side_item">Edit Profile</p>
+            <p class="side_item">Settings</p>
+        </div>
+    </ion-content>
+</ion-menu>
+
+
+
+
+<ion-nav [root]="rootPage" #content></ion-nav>

@@ -6,16 +6,97 @@
 -->
 <ion-header>
   <ion-navbar>
-    <ion-title>list-detail</ion-title>
+    <ion-title>Search Professionals</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content>
+<ion-content padding>
 
-  <ion-card padding>
-    <img src="./../../assets/imgs/1267.png">
-    <ion-card-title>Business Name</ion-card-title>
-    <ion-card-content>Business Description</ion-card-content> 
-  </ion-card>
+  
+  
 
+  <div class="top_description">
+    <p class="font-weight-light">Tell us what you need and we'll connect you with the best professionals in your area.</p>
+    <button type="button" class="btn btn-outline-dark font-weight-light btn2" (click)="routeToQuotePage()">Request Quote</button>
+    <div class="x_spacer"></div>
+  </div>
+
+  <input type="text" class="form-control form-control-lg font-weight-light" id="searchInput" aria-describedby="emailHelp" placeholder="Search by area">
+
+  <div class="card cardx" (click)="routeToBusinessDetailPage()">
+    <div class="card-body">
+      <h5 class="card-title font-weight-light">Ultimate Cleaning</h5>
+      <div class="bus_details_container">
+        <div class="bus_details_left">
+          <div class="bus_img">
+  
+          </div>
+          
+        </div><!--
+     --><div class="bus_details_right">
+          <p class="card-text font-weight-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div class="btn_container_x">
+            <button type="button" class="btn btn-outline-dark font-weight-light btn2" (click)="routeToQuotePage()">Request Quote</button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card cardx">
+    <div class="card-body">
+      <h5 class="card-title font-weight-light">Ultimate Cleaning</h5>
+      <div class="bus_details_container">
+        <div class="bus_details_left">
+          <div class="bus_img">
+  
+          </div>
+          
+        </div><!--
+     --><div class="bus_details_right">
+          <p class="card-text font-weight-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div class="btn_container_x">
+            <button type="button" class="btn btn-outline-dark font-weight-light btn2" (click)="routeToQuotePage()">Request Quote</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card cardx">
+    <div class="card-body">
+      <h5 class="card-title font-weight-light">Ultimate Cleaning</h5>
+      <div class="bus_details_container">
+        <div class="bus_details_left">
+          <div class="bus_img">
+  
+          </div>
+          
+        </div><!--
+     --><div class="bus_details_right">
+          <p class="card-text font-weight-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div class="btn_container_x">
+            <button type="button" class="btn btn-outline-dark font-weight-light btn2" (click)="routeToQuotePage()">Request Quote</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+
+
+  <div class="bottom_nav_container">
+    <div class="btm_nav_left">
+      <p>Showing 1 - 10 of 375</p>
+    </div><!--
+  --><div class="btm_nav_right">
+    <!--
+      <button class="b_nav_btns" ion-button small color="danger">Prev</button>
+      <button class="b_nav_btns" ion-button small color="danger">Next</button>-->
+      <button type="button" class="btn btn-dark font-weight-light btn3">Prev</button>
+      <button type="button" class="btn btn-dark font-weight-light btn3">Next</button>
+    </div>
+  </div>
 </ion-content>

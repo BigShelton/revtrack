@@ -14,3 +14,61 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+
+@import "../assets/scss/fontawesome.scss";
+@import "../assets/scss/solid.scss";
+@import "../assets/scss/brands.scss";
+
+.user {
+    @extend %fa-icon;
+    @extend .fas;
+  
+    &:before {
+      content: fa-content($fa-var-user);
+    }
+  }
+
+  .side_menu_top {
+    width: 100%;
+    padding: 40px 0;
+    background-color: #000;
+    color: #fff;
+  }
+  .side_menu_inner {
+    width: 96%;
+    margin: auto;
+  }
+  .profile_image_conainer, .profile_name {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .profile_image_conainer {
+    width: 26%;
+    
+  }
+  .profile_image_conainer img {
+    width: 100%;
+  }
+  .profile_name {
+    width: 70%;
+    padding: 0 10px;
+  }
+  .profile_name h3 {
+    font-weight: 100;
+    font-size: 1.8rem;
+  }
+  .prof_img {
+    width: 80%;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .side_menu_main_cotainer {
+    width: 100%;
+    padding: 20px;
+  }
+  .side_item {
+    font-size: 1.6rem;
+    padding: 10px 0;
+  }

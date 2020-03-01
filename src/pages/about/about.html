@@ -1,11 +1,56 @@
 <ion-header>
   <ion-navbar>
+    <ion-buttons start>
+      <button ion-button icon-only menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
     <ion-title>
-      About
+      Pick me up
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content>
+  <div #map id="my-map"></div>
 
+  <!--
+  <div class="map-placeholder">
+    <img src="assets/imgs/map.png"/>
+  </div>-->
+
+  <div class="map-footer">
+    <div class="section-header">
+      <p>Hello, Shelton</p>
+    </div>
+    <div class="section-main-content">
+      <div class="search-section">
+        <div class="search-bar" (click)="goToWhereToPage()">
+          <p>Where to?</p>
+        </div>
+      </div>
+
+      <div class="last-location-container">
+        <div class="llc-left">
+          <img src="assets/imgs/location-outline.svg"/>
+        </div><!--
+     --><div class="llc-right">
+            <p class="add_name">71 14th Road</p>
+            <p class="add_descr">Noordwyk, City of Johannesburg, Gauteng</p>
+        </div>
+      </div>
+
+      <div class="last-location-container">
+        <div class="llc-left">
+          <img src="assets/imgs/location-outline.svg"/>
+        </div><!--
+     --><div class="llc-right">
+            <p class="add_name">799 28 Avenue</p>
+            <p class="add_descr">Edenvale, City of Johannesburg, Gauteng</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
 </ion-content>

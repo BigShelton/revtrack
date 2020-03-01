@@ -1,3 +1,89 @@
 page-list-detail {
-
+    .icons_container {
+        width: 100%;
+        padding: 6px 0;
+    }
+    .iconsInner_left, .iconsInner_right {
+        display: inline-block;
+    }
+    .iconsInner_left {
+        width: 80%;
+    }
+    .iconsInner_left p {
+        font-size: 1.8rem;
+    }
+    .iconsInner_right {
+        width: 20%;
+        text-align: right;
+    }
+    .bus_details_container {
+        width: 100%;
+    }
+    .bus_details_left, .bus_details_right {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .bus_details_left {
+        width: 30%;
+    }
+    .bus_details_right {
+        padding-left: 6px;
+        width: 70%;
+    }
+    .bus_img {
+        width: 80px;
+        height: 80px;
+        background-color: #ccc;
+        border-radius: 2px;
+    }
+    
+    .top_description {
+        width: 100%;
+        text-align: center;
+        margin-top: 20%;
+    }
+    .top_description p {
+        font-size: 1.6rem;
+    }
+    .bottom_nav_container {
+        width: 100%;
+        margin: 14px 0;
+    }
+    .btm_nav_left, .btm_nav_right {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .btm_nav_left {
+        width: 50%;
+    }
+    .btm_nav_right {
+        width: 50%;
+        text-align: right;
+    }
+    .b_nav_btns {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .scroll-content {
+        margin-top: 0 !important;
+        background-color: #f9f9f9;
+    }
+    .cardx {
+        margin: 14px 0;
+    }
+    .btn2 {
+        padding: 4px 10px;
+    }
+    .btn3 {
+        padding: 4px 14px;
+        margin-left: 6px;
+    }
+    .x_spacer {
+        width: 100%;
+        height: 20px;
+    }
+    .btn_container_x {
+        width: 100%;
+        text-align: right;
+    }
 }

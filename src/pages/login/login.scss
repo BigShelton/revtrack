@@ -1,7 +1,7 @@
 page-login {
   .scroll-content {
     margin-top: 0 !important;
-    background-color: darkviolet;
+    background-color: #f9f9f9;
   }
   ion-header,
   .toolbar-background {
@@ -35,11 +35,11 @@ page-login {
 
   .item.item-input.input-has-focus.item-input-has-focus ion-input,
   .item.item-input.input-has-focus.item-input-has-focus ion-textarea {
-    border: solid 1px darkviolet;
+    border: solid 1px rgb(35, 211, 0);
   }
 
   .item.item-input.input-has-focus.item-input-has-focus .label {
-    color: darkviolet;
+    color: rgb(7, 211, 0);
   }
 
   .item.item-input.item-input-has-focus .item-inner,
@@ -60,13 +60,24 @@ page-login {
   .loginform {
     background-color: white;
     padding: 40px 5px 10px 5px;
-    margin: 50% 20px 55% 20px;
+    margin: 0 20px 0 20px;
     border-radius: 20px;
     text-align: center;
   }
 
   ion-title {
     text-align: center;
+  }
+
+  .logo_container {
+    width: 100%;
+    margin-top: 20%;
+    text-align: center;
+  }
+
+  .logo1 {
+    width: 80px;
+    margin: auto;
   }
 
   button.loginbtn {
@@ -91,5 +102,10 @@ page-login {
 
   ion-footer {
     position: fixed;
+  }
+
+  .social_login_container {
+    width: 100%;
+    text-align: center;
   }
 }

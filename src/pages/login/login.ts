@@ -8,7 +8,7 @@ import {
 import { TabsPage } from '../tabs/tabs';
 
 @Component({
-  selector: 'login',
+  selector: 'page-login',
   templateUrl: 'login.html'
 })
 export class LoginPage {

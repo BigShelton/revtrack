@@ -15,7 +15,12 @@
 
 <ion-content>
 
-  <div class="login-card">
+    <div class="logo_container">
+      <img class="logo1" src="../../assets/imgs/RevTrack-logo1.png">
+    </div>
+  
+
+  <div class="login-card" padding>
     <div class="loginform">
       <ion-list no-lines>
 
@@ -29,28 +34,37 @@
           <ion-input type="password" [(ngModel)]="password"></ion-input>
         </ion-item>
         <h5>Forgot Password?</h5>
-        <button class="loginbtn" ion-button full large color="dark" (click)="routeToTabs()">
+        <button class="loginbtn" ion-button large color="dark" (click)="routeToTabs()">
           LOGIN
         </button>
+        
 
       </ion-list>
     </div>
+
+    <!--
     <ion-footer>
       <div class="sociallogin">
         <ion-list no-lines>
           <ion-item>
-            <button ion-button full large style="background-color: #3B5998;">
+            <button ion-button large style="background-color: #3B5998;">
               LOGIN WITH FACEBOOK
             </button>
           </ion-item>
           <ion-item>
-            <button ion-button full large style="background-color: #DB4437;">
+            <button ion-button large style="background-color: #DB4437;">
               LOGIN WITH GOOGLE
             </button>
           </ion-item>
         </ion-list>
       </div>
     </ion-footer>
+    -->
+  </div>
+
+  <div class="social_login_container" padding>
+    <button type="button" class="btn btn-primary">Login with Facebook</button>
+    <button type="button" class="btn btn-danger">Login with Gmail</button>
   </div>
 
 </ion-content>

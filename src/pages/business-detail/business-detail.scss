@@ -1,0 +1,77 @@
+page-business-detail {
+    .bp_top_section {
+        width: 100%;
+        background-color: #fff;
+        margin-bottom: 30px;
+    }
+    .bp_ts_banner_container {
+        width: 100%;
+        height: 240px;
+        overflow: hidden;
+        background-color: #ccc;
+    }
+    .bp_ts_banner_container img {
+        width: 100%;
+    }
+    .bp_ts_info_container {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .bp_ts_inline_buttons_container {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .bp_inlinebtns {
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        width: 50%;
+    }
+    .scroll-content {
+        margin-top: 0 !important;
+        background-color: #f9f9f9;
+    }
+    .cardx {
+        margin-bottom: 30px;
+        border: none;
+        border-top: 1px solid #f3f2f2;
+        border-radius: 0;
+    }
+    .cd_inlines_container {
+        width: 100%;
+    }
+    .cd_inlines, .cd_inlines2 {
+        display: inline-block;
+        vertical-align: top;
+        color: #ccc;
+    }
+    .cd_inlines {
+        width: 60%;
+    }
+    .cd_inlines2 {
+        text-align: right;
+        width: 40%;
+    }
+    .title_containerx {
+        width: 100%;
+        padding: 6px 10px 0;
+    }
+    .cd_inlines_cont {
+        width: 100%;
+    }
+    .cd_galleryImgs {
+        display: inline-block;
+        vertical-align: top;
+        width: 33%;
+        height: 80px;
+        background-color: #ccc;
+        outline: 1px solid #fff;
+    }
+
+    .footer_button {
+        width: 100%;
+        text-align: center;
+    }
+}
